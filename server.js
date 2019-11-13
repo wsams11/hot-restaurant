@@ -3,6 +3,7 @@ const path = require("path");
 const tableData = require("./data/tableData");
 const waitlistData = require("./data/waitinglistData");
 
+
 const app = express();
 const PORT = 8080;
 
@@ -52,6 +53,7 @@ app.post("/api/clear", function(req, res) {
 app.listen(PORT, function() {
     console.log("App listening on PORT " + PORT);
   });
+
 
 
 
